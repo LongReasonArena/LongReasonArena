@@ -1,4 +1,4 @@
-from utils import load_jsonl, extract_code, extract_box
+from utils import load_jsonl, extract_code, extract_box, write_jsonl
 import re
 import fire
 
@@ -31,7 +31,7 @@ def get_score(input_path):
     invalid = []
     for item in data:
         func_text = problem_compare[item["problem"]]
-        exec(func_text)
+        exec(func_text, globals())
         answer_text = extract_answer(item["generation"])
 
         if answer_text:
@@ -60,6 +60,10 @@ def get_score(input_path):
     print("Number of wrong answers:", len(false))
     print("Number of formatting errors:", len(invalid))
     print(f"Accuracy: {100 * len(true)/len(data):.3g}")
+
+    # write_jsonl("tmp/true.jsonl", true)
+    # write_jsonl("tmp/false.jsonl", false)
+    # write_jsonl("tmp/invalid.jsonl", invalid)
 
 if __name__ == "__main__":
     fire.Fire(get_score)

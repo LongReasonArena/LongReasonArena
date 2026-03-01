@@ -4,20 +4,25 @@ LongReasonArena is a benchmark designed to assess the long reasoning capabilitie
 
 ## 🏆 Results
 
-| Model                         | Reasoning Model | Level 1 | Level 2 | Level 3 |
+| Model | Reasoning Model | Level 1 | Level 2 | Level 3 |
 |--------------------------------|-----------------|---------|---------|---------|
-| o1                             | ✓               | 59.3    | 29.6    | 16.4    |
-| QwQ                            | ✓               | 49.4    | 20.4    | 10.7    |
-| Claude 3.7 Sonnet              | ✓               | 44.2    | 15.5    | 7.8    |
-| DeepSeek-R1                    | ✓               | 40.1    | 15.7    | 7.5    |
-| DeepSeek-R1-Distill-Qwen-32B   | ✓               | 38.5    | 13.9    | 7.5    |
-| DeepSeek-R1-Distill-Qwen-14B   | ✓               | 32.7    | 9.8    | 3.3    |
-| QwQ-preview                    | ✓               | 29.0    | 8.9    | 3.6    |
-| GPT-4o                         | ✗               | 23.0    | 5.7    | 2.1     |
-| Qwen2.5-72B                    | ✗               | 20.6    | 5.2    | 2.1     |
-| DeepSeek-R1-Distill-Qwen-7B    | ✓               | 16.3    | 3.3     | 1.9     |
-| Llama 3.1 70B                  | ✗               | 12.8    | 3.3     | 1.2     |
-| DeepSeek-R1-Distill-Qwen-1.5B  | ✓               | 1.0     | 0.3     | 0.0     |
+| GPT-5 | ✓ | 81.5 | 41.8 | 26.4 |
+| o1 | ✓ | 59.3 | 29.6 | 16.4 |
+| Qwen3-32B | ✓ | 49.4 | 19.3 | 11.3 |
+| QwQ | ✓ | 49.4 | 20.4 | 10.7 |
+| Qwen3-14B | ✓ | 50.4 | 16.9 | 8.6 |
+| Claude 3.7 Sonnet | ✓ | 44.2 | 15.5 | 7.8 |
+| DeepSeek-R1 | ✓ | 40.1 | 15.7 | 7.5 |
+| DeepSeek-R1-Distill-Qwen-32B | ✓ | 38.5 | 13.9 | 7.5 |
+| Qwen3-8B | ✓ | 43.2 | 16.3 | 7.1 |
+| Qwen3-4B | ✓ | 42.4 | 13.4 | 6.7 |
+| QwQ-preview | ✓ | 29.0 | 8.9 | 3.6 |
+| DeepSeek-R1-Distill-Qwen-14B | ✓ | 32.7 | 9.8 | 3.3 |
+| GPT-4o | ✗ | 23.0 | 5.7 | 2.1 |
+| Qwen2.5-72B | ✗ | 20.6 | 5.2 | 2.1 |
+| DeepSeek-R1-Distill-Qwen-7B | ✓ | 16.3 | 3.3 | 1.9 |
+| Llama 3.1 70B | ✗ | 12.8 | 3.3 | 1.2 |
+| DeepSeek-R1-Distill-Qwen-1.5B | ✓ | 1.0 | 0.3 | 0.0 |
 
 ## 🚀 How to Evaluate Your Own Models
 
