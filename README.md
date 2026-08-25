@@ -6,23 +6,20 @@ LongReasonArena is a benchmark designed to assess the long reasoning capabilitie
 
 | Model | Reasoning Model | Level 1 | Level 2 | Level 3 |
 |--------------------------------|-----------------|---------|---------|---------|
-| GPT-5 | ✓ | 81.5 | 41.8 | 26.4 |
-| o1 | ✓ | 59.3 | 29.6 | 16.4 |
-| Qwen3-32B | ✓ | 49.4 | 19.3 | 11.3 |
-| QwQ | ✓ | 49.4 | 20.4 | 10.7 |
-| Qwen3-14B | ✓ | 50.4 | 16.9 | 8.6 |
-| Claude 3.7 Sonnet | ✓ | 44.2 | 15.5 | 7.8 |
-| DeepSeek-R1 | ✓ | 40.1 | 15.7 | 7.5 |
-| DeepSeek-R1-Distill-Qwen-32B | ✓ | 38.5 | 13.9 | 7.5 |
-| Qwen3-8B | ✓ | 43.2 | 16.3 | 7.1 |
-| Qwen3-4B | ✓ | 42.4 | 13.4 | 6.7 |
-| QwQ-preview | ✓ | 29.0 | 8.9 | 3.6 |
-| DeepSeek-R1-Distill-Qwen-14B | ✓ | 32.7 | 9.8 | 3.3 |
-| GPT-4o | ✗ | 23.0 | 5.7 | 2.1 |
-| Qwen2.5-72B | ✗ | 20.6 | 5.2 | 2.1 |
-| DeepSeek-R1-Distill-Qwen-7B | ✓ | 16.3 | 3.3 | 1.9 |
-| Llama 3.1 70B | ✗ | 12.8 | 3.3 | 1.2 |
-| DeepSeek-R1-Distill-Qwen-1.5B | ✓ | 1.0 | 0.3 | 0.0 |
+| GPT-5 | ✓ | 84.2 | 48.3 | 27.8 |
+| Claude Opus 4.5 | ✓ | 66.1 | 29.1 | 17.6 |
+| o3 | ✓ | 65.4 | 36.6 | 22.4 |
+| o1 | ✓ | 62.8 | 32.0 | 20.0 |
+| Qwen3-32B | ✓ | 56.3 | 20.3 | 13.5 |
+| QwQ | ✓ | 56.2 | 20.6 | 13.4 |
+| Qwen3-14B | ✓ | 55.6 | 20.0 | 11.4 |
+| Claude Sonnet 4.5 | ✓ | 54.3 | 18.9 | 10.9 |
+| Qwen3-8B | ✓ | 50.4 | 14.9 | 8.5 |
+| Qwen3-4B | ✓ | 47.3 | 13.0 | 8.3 |
+| DeepSeek-R1 | ✓ | 42.2 | 16.4 | 9.9 |
+| DeepSeek-R1-Distill-Qwen-32B | ✓ | 42.1 | 11.2 | 7.7 |
+| GPT-4o | ✗ | 25.0 | 7.3 | 4.3 |
+| Llama 3.3 70B Instruct | ✗ | 22.7 | 8.7 | 5.9 |
 
 ## 🚀 How to Evaluate Your Own Models
 
